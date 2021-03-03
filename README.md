@@ -1,6 +1,6 @@
 # God Save Pringles
 
-This is a simple bot that uses Selenium to operate an manage the Pringles webpage to enter entries to 
+This is a simple bot that uses Selenium to operate an manage the Pringles webpage to enter entries on it 
 
 ### *Disclaimer* 
 This bot **only** works on the Colombian site of Pringles, this is because this 
