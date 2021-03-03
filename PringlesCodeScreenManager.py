@@ -72,22 +72,22 @@ while (login == "n" or login == "N" or login == "no" or login == "No" or login =
             fechaInput.send_keys(Keys.TAB)
             print(fechaKey)
 
-            # This selects one of the three types of cans based on probably. This is just for fun but aparently the GP website does not need this.
+            # This selects one of the three types of cans based on probability. This is just for fun but aparently the GP website does not need this.
 
             ranList = random.choices(ranListnumbers, ranListDistribution)
             ranValue = ranList[0]
 
             if (ranValue == 1):
 
-                tipoObject.select_by_value("f5422024-574e-4f24-80fb-251a38512b72")
+                tipoObject.select_by_value("f5422024-574e-4f24-80fb-251a38512b72") # Medium can
 
             elif (ranValue == 2):
 
-                tipoObject.select_by_value("da677ebf-3ce2-4e94-9ce1-52af9d2c9e6f")
+                tipoObject.select_by_value("da677ebf-3ce2-4e94-9ce1-52af9d2c9e6f") # Large can
             
             elif (ranValue == 3):
 
-                tipoObject.select_by_value("2657fce8-8643-46e7-bdf3-f2364072e319")
+                tipoObject.select_by_value("2657fce8-8643-46e7-bdf3-f2364072e319") # Small can
             
             # Afther that, this summits the entry on the webside.
 
